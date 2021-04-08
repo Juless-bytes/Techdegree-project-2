@@ -86,11 +86,17 @@ ul {
     margin: 30px 18px;
 }
 .container5 {
-    font-size: 10px;
     display: flex;
     justify-content: space-between;
-    padding: 10px 8px;
     align-items: center;
+    margin-top: auto;
+    height: 100%;
+}
+.last {
+    font-size: 10px;
+}
+.item {
+    display: none;
 }
 
 
@@ -125,10 +131,12 @@ ul {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
-    .container5 {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+    .TOP {
+        display: none;
+    }
+    .item {
+        display: inline-block;
+        margin: 0 20px;
     }
     
 
@@ -154,8 +162,14 @@ ul {
     .paragraph {
         width: 50%;
     }
-    .name {
-        margin-left: 28px;
+    .TOP {
+        display: none;
     }
+    .item {
+        display: inline-block;
+        margin: 0 20px;
+    }
+    
+
     
 }
